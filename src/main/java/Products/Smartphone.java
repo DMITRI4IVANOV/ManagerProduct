@@ -3,20 +3,20 @@ package Products;
 import java.util.Objects;
 
 public class Smartphone extends Product {
-    private String manufacturer;
+    private String company;
 
 
-    public Smartphone(int id, String name, int price, String manufacturer) {
-        super(id, name, price);
-        this.manufacturer = manufacturer;
+    public Smartphone(int id, String title, int price, String company) {
+        super(id, title, price);
+        this.company = company;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
+    public String getCompany() {
+        return company;
     }
 
-    public void setManufacturer( String manufacturer) {
-        this.manufacturer = manufacturer;
+    public void setCompany( String company) {
+        this.company = company;
     }
     @Override
     public boolean equals(Object o) {
@@ -24,18 +24,18 @@ public class Smartphone extends Product {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Smartphone smartphone = (Smartphone) o;
-        return Objects.equals(manufacturer, smartphone.manufacturer);
+        return Objects.equals(company, smartphone.company);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), manufacturer);
+        return Objects.hash(super.hashCode(), company);
     }
 
     @Override
     public String toString() {
         return "Smartphone{" +
-                "maker='" + manufacturer +
+                "maker='" + company +
                 '}';
     }
 
@@ -44,7 +44,7 @@ public class Smartphone extends Product {
         if (super.matches(search)) {
             return  true;
         }
-        if (getManufacturer().equalsIgnoreCase(search)) {
+        if (getCompany().equalsIgnoreCase(search)) {
             return true;
         }
         return false;

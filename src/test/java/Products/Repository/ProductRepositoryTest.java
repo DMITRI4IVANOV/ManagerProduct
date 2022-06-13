@@ -10,16 +10,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductRepositoryTest {
     ProductRepository repository = new ProductRepository();
-    private Book first = new Book(001,"Тестирование ПО",1000,"Святослав Куликов");
-    private Book second = new Book(002,"Tестирование dot com",1000,"Роман Савин");
-    private Book third = new Book(003,"Тестирование черного ящика",1000,"Борис Бейзер");
-    private Book fourth = new Book(004,"Ключевые процессы тестирования",1000,"Рекс Блэк");
+    private Book first = new Book(001,"Возрождение",1000,"Данке");
+    private Book second = new Book(002,"Кто ты",245,"Анкин");
+    private Book third = new Book(003,"Голая правда",450,"Горд");
+    private Book fourth = new Book(004,"Голая правда",450,"Горд");
     private Book fifth = new Book(005,"Автоматизированное тестирование программного обеспечения",1000,"Элфрид Дастин, Джефф Рэшка, Джон Пол");
-    private Smartphone sixth = new Smartphone(006,"Samsung",5000,"South Korea");
-    private Smartphone seventh = new Smartphone(007,"Xiaomi",5000,"Китай");
-    private Smartphone eidhth = new Smartphone(00,"Huawei",5000,"Китай");
-    private Smartphone ninth = new Smartphone(00,"Nokia",5000,"Финляндия");
-    private Smartphone tenth = new Smartphone(010,"Sony",5000,"Япония");
+    private Smartphone sixth = new Smartphone(006,"S22",59000,"Samsung");
+    private Smartphone seventh = new Smartphone(007,"T9",25000,"Xiaomi");
+    private Smartphone eidhth = new Smartphone(00,"7X",18000,"Huawei");
+    private Smartphone ninth = new Smartphone(00,"N990",10000,"Nokia");
+    private Smartphone tenth = new Smartphone(010,"Z7",16000,"Sony");
 
 
     @BeforeEach

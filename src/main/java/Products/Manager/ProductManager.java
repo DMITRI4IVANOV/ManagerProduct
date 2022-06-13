@@ -36,7 +36,7 @@ public class ProductManager {
     public boolean matches(Product product, String search){
         if (product instanceof Book){
             Book book = (Book) product;
-            if (book.getName().equalsIgnoreCase(search)){
+            if (book.getTitle().equalsIgnoreCase(search)){
                 return true;
             }
             if (book.getAuthor().equalsIgnoreCase(search)){
@@ -45,15 +45,15 @@ public class ProductManager {
             return false;
         } else if ( product instanceof Smartphone) {
             Smartphone smartphone = (Smartphone) product;
-            if (smartphone.getName().equalsIgnoreCase(search)) {
+            if (smartphone.getTitle().equalsIgnoreCase(search)) {
                 return true;
             }
-            if (smartphone.getManufacturer().equalsIgnoreCase(search)) {
+            if (smartphone.getCompany().equalsIgnoreCase(search)) {
                 return true;
             }
             return false;
         }else {
-            if (product.getName().equalsIgnoreCase(search)){
+            if (product.getTitle().equalsIgnoreCase(search)){
                 return true;
             }
             return false;

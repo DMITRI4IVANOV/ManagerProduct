@@ -4,12 +4,12 @@ import java.util.Objects;
 
 public class Product {
 private int id;
-        private String name;
+        private String title;
         private int price;
 
-public Product(int id, String name, int price) {
+public Product(int id, String title, int price) {
         this.id = id;
-        this.name = name;
+        this.title = title;
         this.price = price;
         }
 
@@ -21,12 +21,12 @@ public void setId(int id) {
         this.id = id;
         }
 
-public String getName() {
-        return name;
+public String getTitle() {
+        return title;
         }
 
-public void setName( String name) {
-        this.name = name;
+public void setTitle( String title) {
+        this.title = title;
         }
 
 public int getPrice() {
@@ -43,25 +43,25 @@ public boolean equals(Object o) {
         Product product = (Product) o;
         return id == product.id &&
         price == product.price &&
-        Objects.equals(name, product.name);
+        Objects.equals(title, product.title);
         }
 
 @Override
 public int hashCode() {
-        return Objects.hash(id, name, price);
+        return Objects.hash(id, title, price);
         }
 
-//@Override
-//public String toString() {
-//        return "Product{" +
-//        "id=" + id +
-//        ", name='" + name + '\" +
-//        ", price=" + price +
-//        '}';
-//        }
+@Override
+public String toString() {
+        return "Product{" +
+        "id=" + id +
+        ", name='" + title + '\'' +
+        ", price=" + price +
+                '}';
+        }
 
 public boolean matches( String search) {
-        if (getName().equalsIgnoreCase(search)) {
+        if (getTitle().equalsIgnoreCase(search)) {
         return true;
         }
         return  false;
