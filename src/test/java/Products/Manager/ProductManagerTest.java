@@ -15,7 +15,7 @@ public class ProductManagerTest {
     private Book first = new Book(001,"Тестирование ПО",1000,"Святослав Куликов");
     private Book second = new Book(002,"Tестирование dot com",1000,"Роман Савин");
     private Book third = new Book(003,"Тестирование черного ящика",1000,"Борис Бейзер");
-    private Book fourth = new Book(004,"Ключевые процессы тестирования",1000,"Рекс Блэк");
+    private Book fourth = new Book(004,"Тестирование черного ящика",1000,"Борис Бейзер");
     private Book fifth = new Book(005,"Автоматизированное тестирование программного обеспечения",1000,"Элфрид Дастин, Джефф Рэшка, Джон Пол");
     private Smartphone sixth = new Smartphone(006,"Samsung",5000,"South Korea");
     private Smartphone seventh = new Smartphone(007,"Xiaomi",5000,"Китай");

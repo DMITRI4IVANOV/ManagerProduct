@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Products.Manager.ProductManagerTest" time="0.318" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Products.Manager.ProductManagerTest" time="0.337" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\test-classes;C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\classes;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dimkasik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\test-classes;C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\classes;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dimkasik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\mockito\mockito-junit-jupiter\3.10.0\mockito-junit-jupiter-3.10.0.jar;C:\Users\Dimkasik\.m2\repository\org\mockito\mockito-core\3.10.0\mockito-core-3.10.0.jar;C:\Users\Dimkasik\.m2\repository\net\bytebuddy\byte-buddy\1.11.0\byte-buddy-1.11.0.jar;C:\Users\Dimkasik\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.0\byte-buddy-agent-1.11.0.jar;C:\Users\Dimkasik\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.14.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dimkasik\AppData\Local\Temp\surefire3574917813580340699\surefirebooter17753799013090530940.jar C:\Users\Dimkasik\AppData\Local\Temp\surefire3574917813580340699 2022-06-13T12-27-42_991-jvmRun1 surefire5706788718822086824tmp surefire_06865574298986085854tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dimkasik\AppData\Local\Temp\surefire13003369852806692222\surefirebooter7693999867509335722.jar C:\Users\Dimkasik\AppData\Local\Temp\surefire13003369852806692222 2022-06-13T13-01-37_065-jvmRun1 surefire2347489757011466542tmp surefire_016298455179846240173tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\test-classes;C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\classes;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dimkasik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\test-classes;C:\Users\Dimkasik\IdeaProjects\homework\ManagerProducts\target\classes;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dimkasik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;C:\Users\Dimkasik\.m2\repository\org\mockito\mockito-junit-jupiter\3.10.0\mockito-junit-jupiter-3.10.0.jar;C:\Users\Dimkasik\.m2\repository\org\mockito\mockito-core\3.10.0\mockito-core-3.10.0.jar;C:\Users\Dimkasik\.m2\repository\net\bytebuddy\byte-buddy\1.11.0\byte-buddy-1.11.0.jar;C:\Users\Dimkasik\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.0\byte-buddy-agent-1.11.0.jar;C:\Users\Dimkasik\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dimkasik"/>
     <property name="user.language" value="ru"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dimkasik\AppData\Local\Temp\surefire3574917813580340699\surefirebooter17753799013090530940.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dimkasik\AppData\Local\Temp\surefire13003369852806692222\surefirebooter7693999867509335722.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+9"/>
@@ -61,14 +61,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldUseEquals" classname="Products.Manager.ProductManagerTest" time="0.185"/>
-  <testcase name="shouldFindByBookName" classname="Products.Manager.ProductManagerTest" time="0.021"/>
-  <testcase name="shouldFindAuthorExistBook" classname="Products.Manager.ProductManagerTest" time="0"/>
-  <testcase name="shouldGetAll" classname="Products.Manager.ProductManagerTest" time="0.002"/>
-  <testcase name="shouldFindAuthoNotExistBook" classname="Products.Manager.ProductManagerTest" time="0.006"/>
-  <testcase name="shouldFindNameNotExistBook" classname="Products.Manager.ProductManagerTest" time="0.001"/>
-  <testcase name="shouldFindBySmartphoneTitle" classname="Products.Manager.ProductManagerTest" time="0.003"/>
-  <testcase name="shouldFindМanufacturerNotExistSmartphone" classname="Products.Manager.ProductManagerTest" time="0.004"/>
-  <testcase name="shouldFindNameNotExistSmartphone" classname="Products.Manager.ProductManagerTest" time="0.002"/>
-  <testcase name="shouldFindBySmartphoneManufacturer" classname="Products.Manager.ProductManagerTest" time="0.005"/>
+  <testcase name="shouldUseEquals" classname="Products.Manager.ProductManagerTest" time="0.157"/>
+  <testcase name="shouldFindByBookName" classname="Products.Manager.ProductManagerTest" time="0.026"/>
+  <testcase name="shouldFindAuthorExistBook" classname="Products.Manager.ProductManagerTest" time="0.006"/>
+  <testcase name="shouldGetAll" classname="Products.Manager.ProductManagerTest" time="0.003"/>
+  <testcase name="shouldFindAuthoNotExistBook" classname="Products.Manager.ProductManagerTest" time="0.005"/>
+  <testcase name="shouldFindNameNotExistBook" classname="Products.Manager.ProductManagerTest" time="0.004"/>
+  <testcase name="shouldFindBySmartphoneTitle" classname="Products.Manager.ProductManagerTest" time="0.007"/>
+  <testcase name="shouldFindМanufacturerNotExistSmartphone" classname="Products.Manager.ProductManagerTest" time="0.007"/>
+  <testcase name="shouldFindNameNotExistSmartphone" classname="Products.Manager.ProductManagerTest" time="0.003"/>
+  <testcase name="shouldFindBySmartphoneManufacturer" classname="Products.Manager.ProductManagerTest" time="0.003"/>
 </testsuite>
