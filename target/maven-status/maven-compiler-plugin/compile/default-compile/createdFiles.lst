@@ -1,0 +1,5 @@
+Products\Manager\ProductManager.class
+Products\Repository\ProductRepository.class
+Products\Smartphone.class
+Products\Book.class
+Products\Product.class
